@@ -68,6 +68,7 @@ my-typescript-project
 2. Install dependencies:
    ```sh
    npm install
+   npx playwright install (if pw isn't installed yet)
    ```
 
 3. Set up environment variables for login (if needed but recommended since I have a global setup/teardown functionality within the codebase):
